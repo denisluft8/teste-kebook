@@ -216,6 +216,7 @@ body {
     width: 400px;
   }
 }
+
 @keyframes menu-hide {
   0% {
     width: 400px;
@@ -224,6 +225,7 @@ body {
     width: 0px;
   }
 }
+
 @keyframes search-show {
   0% {
     width: 0px;
@@ -232,6 +234,7 @@ body {
     width: 70%;
   }
 }
+
 @keyframes search-hide {
   0% {
     width: 70%;
@@ -264,6 +267,7 @@ body {
   .home__container {
     margin: 0 12rem;
   }
+
   .header__container {
     margin: 0 12rem;
   }
@@ -274,6 +278,7 @@ body {
     max-width: 85%;
     padding-top: 3.5rem;
   }
+
   .header__container {
     padding: 0px 6px;
   }
@@ -417,6 +422,7 @@ body {
   .top__title {
     font-size: 3.5rem;
   }
+  
   .top__title > span {
     font-size: 3.5rem;
   }
