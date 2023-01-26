@@ -12,59 +12,140 @@
   </head>
   <body>
     <header class="header">
-      <a>
-        <img src="./assets/logo.svg" />
-      </a>
-      <ul class="header__links">
-        <li>Home</li>
-        <li>Sobre</li>
-        <li>Instrutor</li>
-        <li>Afiliado</li>
-        <li>Suporte</li>
-        <li>Carreiras</li>
-        <li><a>Login|Inscrever-se</a></li>
-      </ul>
+      <div class="header__container">
+        <a>
+          <img src="./assets/logo.svg" />
+        </a>
+        <nav>
+          <div id="hamburger-icon">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+          <div class="mobile__menu">
+            <div class="mobile__header">
+              <img class="menu__logo" src="./assets/logo-mobile.svg" />
+              <div class="menu__close">
+                <img src="./assets/close-svgrepo-com.svg" />
+              </div>
+            </div>
+            <ul class="mobile__list">
+              <li class="mobile__item">
+                <a class="mobile__link" href="#home">Home</a>
+              </li>
+              <li class="mobile__item">
+                <a class="mobile__link" href="#">Sobre</a>
+              </li>
+              <li class="mobile__item">
+                <a class="mobile__link" href="#">Instrutor</a>
+              </li>
+              <li class="mobile__item">
+                <a class="mobile__link" href="#">Afiliado</a>
+              </li>
+              <li class="mobile__item">
+                <a class="mobile__link" href="#">Suporte</a>
+              </li>
+              <li class="mobile__item">
+                <a class="mobile__link" href="#">Carreiras</a>
+              </li>
+              <li class="mobile__search">
+                <img class="mimg-search" src="./assets/dark-search-icon.svg" />
+                <input type="text" class="minput-search" />
+                <img
+                  class="mclose-search"
+                  src="./assets/close-svgrepo-com.svg"
+                />
+              </li>
+              <li class="mobile__login">
+                <a
+                  ><img src="./assets/user-dark.svg" class="login__svg" /> Login
+                  | Inscrever-se</a
+                >
+              </li>
+            </ul>
+          </div>
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="#home">Home</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">Sobre</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">Instrutor</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">Afiliado</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">Suporte</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">Carreiras</a>
+            </li>
+            <li class="header__search">
+              <img class="img-search" src="./assets/icons8-search.svg" />
+              <input type="text" class="input-search" />
+              <img class="close-search" src="./assets/close-svgrepo-com.svg" />
+            </li>
+            <li class="header__login">
+              <a
+                ><img src="./assets/user-svgrepo-com.svg" class="login__svg" />
+                Login | Inscrever-se</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <section class="home__top">
-      <div>
+    <section class="home__top" id="home">
+      <div class="home__container">
         <div class="top__info">
-          <h2 class="top__title">Investir em Seu<span>Futuro!</span></h2>
+          <h1 class="page-title">Kebook</h1>
+          <h2 class="top__title">
+            Investir em <br />
+            Seu <span>Futuro!</span>
+          </h2>
           <p class="top__text">
             A Kebook tem os cursos online que você precisa para ser o
             profissional que o mercado de hoje procura
           </p>
           <div class="link-container">
-            <a class="link__left">Comprar um curso</a>
-            <a class="link__right">Comece a ensinar agora mesmo</a>
+            <a class="top__link">Comprar um curso</a>
+            <a class="top__link">Comece a ensinar agora mesmo</a>
           </div>
-          <p>Tem cadastro na Kebook?<a>Acesse seu perfil</a></p>
+          <p>
+            Tem cadastro na Kebook?
+            <a class="profile__link">Acesse seu perfil</a>
+          </p>
         </div>
-        <div>
-          <img src="./assets/illustra-home-1.png" />
+        <div class="top___img">
+          <img class="home__img" src="./assets/illustra-home-1.png" />
         </div>
       </div>
     </section>
     <section class="home__bottom">
       <div class="bottom__info">
-        <img src="" />
+        <img src="./assets/icon-1.png" />
         <h2>Aprenda com especialistas</h2>
         <p>Selecione cursos dos melhores instrutores do mercado</p>
       </div>
       <div class="bottom__info">
-        <img src="" />
-        <h2>Maior empregabilidade</h2>
+        <img src="./assets/icon-2.png" />
+        <h2>Maior <br />empregabilidade</h2>
         <p>Invista no desenvolvimento da sua carreira e vida pessoal</p>
       </div>
       <div class="bottom__info">
-        <img src="" />
+        <img src="./assets/icon-3.png" />
         <h2>Siga no seu próprio ritmo</h2>
         <p>Defina seu ritmo de estudo conforma à sua disponibilidade</p>
       </div>
       <div class="bottom__info">
-        <img src="" />
-        <h2>Torne-se um instrutor</h2>
+        <img src="./assets/icon-4.png" />
+        <h2>Torne-se um <br />instrutor</h2>
         <p>Possua as ferramentas ideais para ensinar o que você ama</p>
       </div>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
